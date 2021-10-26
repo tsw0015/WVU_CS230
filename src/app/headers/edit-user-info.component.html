@@ -1,0 +1,24 @@
+<div class="div">
+    <div class="row">
+        <div class="col-4">
+            <form #postForm="ngForm" (ngSubmit)="onUpdateUserInfo(postForm.value)">
+                <div class="input-group">
+                    <span class="input-group-text">First and last name</span>
+                    <input type="text" aria-label="First name" class="form-control" ngModel name="FirstName">
+                    <input type="text" aria-label="Last name" class="form-control" ngModel name="LastName">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Mix ID:</span>
+                    <input type="text" aria-label="First name" class="form-control" ngModel name="mix_id">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">GitHub:</span>
+                    <input type="text" aria-label="First name" class="form-control" ngModel name="GitHub">
+                </div>
+                <button class="btn btn-light" type="submit">
+                    Update User Info
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,39 @@
+.crop {
+    background-image: url('https://i.stack.imgur.com/wPh0S.jpg');
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+  }
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 15px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 15px;
+  left: 8px;
+}
+
+.offset-top-left {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color: #FFFF00;
+  color: #FFC0CB;
+}
+
+
+

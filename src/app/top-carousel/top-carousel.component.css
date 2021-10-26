@@ -1,0 +1,28 @@
+.crop {
+    height: 840px; /* height of container */
+    object-fit: cover;
+}
+
+img 
+{
+   width: 100%;
+   height: auto;
+}
+
+.carousel-caption {
+    left: 150px;
+    right: auto;
+}
+
+.carousel-indicators li { 
+    width: 50px; 
+    height: 10px; 
+    border-radius: 100%; 
+}
+.h5 {
+    font-size: 30px;
+}
+
+.p {
+    font-size: 20px;
+}
